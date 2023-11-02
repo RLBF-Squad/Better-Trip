@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react'
+import { render } from 'react-dom'
 
 import { useNavigate } from 'react-router'
 
@@ -15,18 +16,11 @@ const UserPersonalItenerary = () => {
        
 },[])
 
-console.log(currentItinerary.currentItinerary)
+
 const renderItinerary = currentItinerary.currentItinerary
 
-function render(renderItinerary){
-  return (
-    <div>
-      
-    </div>
-  )
+console.log(renderItinerary)
 
-  
-}
 
 
 
